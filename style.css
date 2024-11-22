@@ -1,0 +1,68 @@
+.root {
+    font-size: 15px;
+}
+
+#box {
+    width: 50rem;
+    margin: 0 auto;
+    border: 0.5rem solid brown;
+}
+
+#container {
+    padding: 1rem;
+    border: 0.5rem solid red;
+}
+
+body {
+    font-size: 1rem;
+    font-family: serif;
+}
+
+h1 {
+    color: brown;
+    text-decoration: underline;
+}
+
+#photo {
+    border: 0.5rem double black;
+    width: 100%;
+    max-width: 25rem;
+
+    display: block;
+    margin: 0.5rem auto;
+}
+
+#photoName {
+    width: 70%;
+}
+
+fieldset {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 0.2rem groove silver;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+#jsonURL {
+    width: 70%;
+}
+
+button {
+    box-shadow: 0.5rem 0.5rem 1rem silver;
+    margin-right: 0.5rem;
+}
+
+#statusMessage {
+    color: red;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="box">
+        <div id="container">
+            <h1>Photo Viewer</h1>
+    
+            <img id="photo" src="InitialImage.jpg" alt="UMD">
+    
+            <fieldset>
+                <legend>Status</legend>
+                <div>Photo Being Displayed: <input type="text" id="photoName" disabled></div>
+                <div id="status">Photo Viewer System</div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Loading Images (Local Folder)</legend>
+                <label>Photos' Folder: <input type="text" id="folderName" value="umcp/"></label>
+                <label>Common Name: <input type="text" id="commonName" value="college"></label>
+                <br>
+                <label>Start Photo Number: <input type="number" id="startNumber" value="2"></label>
+                <label>End Photo Number: <input type="number" id="endNumber" value="4"></label>
+                <br>
+                <button id="loadPhotos">Load Photos</button>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Loading Images (JSON File)</legend>
+                <label>URL: <input type="text" id="jsonURL"></label>
+                <button id="loadJSON">Load JSON</button>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Iterating</legend>
+                <button id="prevPhoto">Previous Photo</button>
+                <button id="nextPhoto">Next Photo</button>
+                <button id="firstPhoto">First Photo</button>
+                <button id="lastPhoto">Last Photo</button>
+            </fieldset>
+    
+            <fieldset>
+                <legend>SlideShows</legend>
+                <button id="slideShow">SlideShow</button>
+                <button id="randomSlideShow">RandomSlideShow</button>
+                <button id="stopSlideShow">StopSlideShow</button>
+            </fieldset>
+    
+            <button id="reset">Reset Form Values</button>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+
+</html>
